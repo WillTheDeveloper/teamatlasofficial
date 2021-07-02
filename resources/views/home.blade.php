@@ -318,8 +318,8 @@
         </div>
 
         <!-- Testimonial section -->
-        <div class="pb-16 bg-gradient-to-r from-teal-500 to-cyan-600 lg:pb-0 lg:z-10 lg:relative">
-            <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-3 lg:gap-8">
+        <div class="bg-gradient-to-r from-teal-500 to-cyan-600 lg:pb-0 lg:z-10 lg:relative">
+            <div class="lg:mx-auto flex justify-center lg:max-w-7xl">
                 <div class="relative lg:-my-8">
                     <div aria-hidden="true" class="absolute inset-x-0 top-0 h-1/2 bg-white lg:hidden"></div>
                     <div class="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:p-0 lg:h-full">
@@ -331,8 +331,8 @@
                         </div>--}}
                     </div>
                 </div>
-                <div class="mt-12 lg:m-0 lg:col-span-2 lg:pl-8">
-                    <div class="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 lg:px-0 lg:py-20 lg:max-w-none">
+                <div class="lg:m-0 max-w-4xl col-span-3">
+                    <div class="mx-auto text-center px-4 py-8 sm:px-6 lg:px-0 lg:py-12">
                         <blockquote>
                             <div>
                                 <svg class="h-12 w-12 text-white opacity-25" fill="currentColor" viewBox="0 0 32 32"
