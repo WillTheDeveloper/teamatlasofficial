@@ -40,9 +40,9 @@
                             </div>
                         </div>
                         <div class="hidden space-x-8 md:flex md:ml-10">
-                            <a href="#" class="text-base font-medium text-white hover:text-gray-300">Features</a>
+                            <a href="/features" class="text-base font-medium text-white hover:text-gray-300">Features</a>
 
-                            <a href="#" class="text-base font-medium text-white hover:text-gray-300">About Us</a>
+                            <a href="/about" class="text-base font-medium text-white hover:text-gray-300">About Us</a>
                         </div>
                     </div>
                 </nav>
