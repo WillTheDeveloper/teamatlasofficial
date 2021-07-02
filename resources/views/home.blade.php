@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.2/dist/alpine.min.js" defer></script>
+    <script src="https://kit.fontawesome.com/589ed6e880.js" crossorigin="anonymous"></script>
+    <title>TeamATLAS | Home</title>
 </head>
 
 <body>
@@ -18,11 +20,12 @@
                          aria-label="Global">
                         <div class="flex items-center flex-1">
                             <div class="flex items-center justify-between w-full md:w-auto">
-                                <a href="#">
+                                <a href="/">
                                     <span class="sr-only">Workflow</span>
-                                    <img class="h-8 w-auto sm:h-10"
+                                    {{--<img class="h-8 w-auto sm:h-10"
                                          src="https://tailwindui.com/img/logos/workflow-mark-teal-200-cyan-400.svg"
-                                         alt="">
+                                         alt="">--}}
+                                    <i class="fas fa-3x fa-cloud text-white"></i>
                                 </a>
                                 <div class="-mr-2 flex items-center md:hidden">
                                     <button type="button"
