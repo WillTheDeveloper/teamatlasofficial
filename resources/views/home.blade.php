@@ -545,7 +545,7 @@
                         <i class="fab fa-ubuntu fa-3x text-gray-400"></i>
                     </div>
                     <div class="col-span-1 flex justify-center py-8 px-8 bg-gradient-to-r from-cyan-600 to-teal-500">
-                        <i class="fab fa-js fa-3x text-gray-400"></i>
+                        <i class="fab fa-stripe fa-3x text-gray-400"></i>
                     </div>
                 </div>
             </div>
