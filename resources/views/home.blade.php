@@ -159,7 +159,7 @@
                         Serverless technology allows you to deploy sites fast and easily as you do no need to do any provisioning.
                     </p>
                 </div>
-                <div class="mt-12 -mb-10 sm:-mb-24 lg:-mb-80">
+                <div class="mt-12 -mb-10 sm:-mb-24 lg:-mb-32">
                     <img class="rounded-lg shadow-xl ring-1 ring-black ring-opacity-5"
                          src="https://teamatlasofficial.s3.eu-west-2.amazonaws.com/Screenshot+from+2021-07-02+16-41-46.png" alt="">
                 </div>
