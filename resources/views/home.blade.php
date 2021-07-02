@@ -467,7 +467,7 @@
                                 Always in the loop
                             </h3>
                             <p class="mt-3 text-lg text-gray-500">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit ex obcaecati natus eligendi delectus, cum deleniti sunt in labore nihil quod quibusdam expedita nemo.
+                                Being able to trust the platform you are on is important especially in business. You should be worrying about your clients and not your website!
                             </p>
 
                             <dl class="mt-10 space-y-10">
@@ -479,10 +479,10 @@
                                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z" />
                                             </svg>
                                         </div>
-                                        <p class="ml-16 text-lg leading-6 font-medium text-gray-900">Mobile notifications</p>
+                                        <p class="ml-16 text-lg leading-6 font-medium text-gray-900">Monitor Incoming Traffic</p>
                                     </dt>
                                     <dd class="mt-2 ml-16 text-base text-gray-500">
-                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
+                                        Able to monitor how many requests are being made to the server and monitor any blocked requests that are automatically blocked if suspicious.
                                     </dd>
                                 </div>
 
@@ -494,10 +494,10 @@
                                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                                             </svg>
                                         </div>
-                                        <p class="ml-16 text-lg leading-6 font-medium text-gray-900">Reminder emails</p>
+                                        <p class="ml-16 text-lg leading-6 font-medium text-gray-900">Get notified</p>
                                     </dt>
                                     <dd class="mt-2 ml-16 text-base text-gray-500">
-                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
+                                        You are able to setup alerts so any sudden spike in traffic, you will be the first person to know!
                                     </dd>
                                 </div>
                             </dl>
@@ -512,7 +512,7 @@
                                 </defs>
                                 <rect width="784" height="404" fill="url(#e80155a9-dfde-425a-b5ea-1f6fadd20131)" />
                             </svg>
-                            <img class="relative mx-auto" width="490" src="https://tailwindui.com/img/features/feature-example-2.png" alt="">
+                            <img class="relative mx-auto" width="490" src="https://teamatlasofficial.s3.eu-west-2.amazonaws.com/Screenshot+from+2021-07-02+18-11-23.png" alt="">
                         </div>
                     </div>
                 </div>
