@@ -376,20 +376,20 @@
 
                 <div class="relative">
                     <h2 class="text-center text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-                        A better way to send money
+                        Cost effective alternative for servers
                     </h2>
                     <p class="mt-4 max-w-3xl mx-auto text-center text-xl text-gray-500">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus magnam voluptatum cupiditate veritatis in, accusamus quisquam.
+                        Serverless technology means you are not wasting money on server provisioning, instead pay for usages only.
                     </p>
                 </div>
 
                 <div class="relative mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
                     <div class="relative">
                         <h3 class="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">
-                            Transfer funds world-wide
+                            Deployment on a global scale
                         </h3>
                         <p class="mt-3 text-lg text-gray-500">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur minima sequi recusandae, porro maiores officia assumenda aliquam laborum ab aliquid veritatis impedit odit adipisci optio iste blanditiis facere. Totam, velit.
+                            Using AWS and Vapor, deploy servers to your clients no matter the location of them from the comfort of your own workspace - Let AWS and Vapor do the rest of the work.
                         </p>
 
                         <dl class="mt-10 space-y-10">
@@ -401,10 +401,10 @@
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
                                         </svg>
                                     </div>
-                                    <p class="ml-16 text-lg leading-6 font-medium text-gray-900">Competitive exchange rates</p>
+                                    <p class="ml-16 text-lg leading-6 font-medium text-gray-900">Save money in the long run</p>
                                 </dt>
                                 <dd class="mt-2 ml-16 text-base text-gray-500">
-                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
+                                    Pay for what you need and what you use and nothing else.
                                 </dd>
                             </div>
 
@@ -526,26 +526,26 @@
         <div class="bg-white">
             <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
                 <p class="text-center text-base font-semibold uppercase text-gray-600 tracking-wider">
-                    Trusted by over 5 very average small businesses
+                    Servers run by the best software globally
                 </p>
                 <div class="mt-6 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-8">
                     <div class="col-span-1 flex justify-center py-8 px-8 shadow bg-gradient-to-r from-teal-500 to-cyan-600">
-                        <img class="max-h-12" src="https://tailwindui.com/img/logos/transistor-logo-gray-400.svg" alt="Workcation">
+                        <i class="fab fa-aws fa-3x text-gray-400"></i>
                     </div>
                     <div class="col-span-1 flex justify-center py-8 px-8 bg-cyan-600">
-                        <img class="max-h-12" src="https://tailwindui.com/img/logos/mirage-logo-gray-400.svg" alt="Mirage">
+                        <i class="fab fa-3x fa-laravel text-gray-400"></i>
                     </div>
                     <div class="col-span-1 flex justify-center py-8 px-8 bg-gradient-to-r from-cyan-600 to-teal-500">
-                        <img class="max-h-12" src="https://tailwindui.com/img/logos/tuple-logo-gray-400.svg" alt="Tuple">
+                        <i class="fab fa-3x fa-github text-gray-400"></i>
                     </div>
                     <div class="col-span-1 flex justify-center py-8 px-8 bg-gradient-to-r from-teal-500 to-cyan-600">
-                        <img class="max-h-12" src="https://tailwindui.com/img/logos/laravel-logo-gray-400.svg" alt="Laravel">
+                        <i class="fab fa-microsoft fa-3x text-gray-400"></i>
                     </div>
                     <div class="col-span-1 flex justify-center py-8 px-8 bg-cyan-600">
-                        <img class="max-h-12" src="https://tailwindui.com/img/logos/statickit-logo-gray-400.svg" alt="StaticKit">
+                        <i class="fab fa-ubuntu fa-3x text-gray-400"></i>
                     </div>
                     <div class="col-span-1 flex justify-center py-8 px-8 bg-gradient-to-r from-cyan-600 to-teal-500">
-                        <img class="max-h-12" src="https://tailwindui.com/img/logos/statamic-logo-gray-400.svg" alt="Statamic">
+                        <i class="fab fa-js fa-3x text-gray-400"></i>
                     </div>
                 </div>
             </div>
