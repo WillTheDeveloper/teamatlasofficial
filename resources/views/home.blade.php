@@ -39,13 +39,9 @@
                                 </div>
                             </div>
                             <div class="hidden space-x-8 md:flex md:ml-10">
-                                <a href="#" class="text-base font-medium text-white hover:text-gray-300">Product</a>
-
                                 <a href="#" class="text-base font-medium text-white hover:text-gray-300">Features</a>
 
-                                <a href="#" class="text-base font-medium text-white hover:text-gray-300">Marketplace</a>
-
-                                <a href="#" class="text-base font-medium text-white hover:text-gray-300">Company</a>
+                                <a href="#" class="text-base font-medium text-white hover:text-gray-300">About Us</a>
                             </div>
                         </div>
                     </nav>
@@ -162,7 +158,7 @@
                 </div>
                 <div class="mt-12 -mb-10 sm:-mb-24 lg:-mb-80">
                     <img class="rounded-lg shadow-xl ring-1 ring-black ring-opacity-5"
-                         src="https://tailwindui.com/img/component-images/green-project-app-screenshot.jpg" alt="">
+                         src="https://teamatlasofficial.s3.eu-west-2.amazonaws.com/Screenshot+from+2021-07-02+16-41-46.png" alt="">
                 </div>
             </div>
         </div>
@@ -327,12 +323,12 @@
                 <div class="relative lg:-my-8">
                     <div aria-hidden="true" class="absolute inset-x-0 top-0 h-1/2 bg-white lg:hidden"></div>
                     <div class="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:p-0 lg:h-full">
-                        <div
+                        {{--<div
                             class="aspect-w-10 aspect-h-6 rounded-xl shadow-xl overflow-hidden sm:aspect-w-16 sm:aspect-h-7 lg:aspect-none lg:h-full">
                             <img class="object-cover lg:h-full lg:w-full"
                                  src="https://images.unsplash.com/photo-1520333789090-1afc82db536a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2102&q=80"
                                  alt="">
-                        </div>
+                        </div>--}}
                     </div>
                 </div>
                 <div class="mt-12 lg:m-0 lg:col-span-2 lg:pl-8">
