@@ -416,10 +416,10 @@
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3" />
                                         </svg>
                                     </div>
-                                    <p class="ml-16 text-lg leading-6 font-medium text-gray-900">No hidden fees</p>
+                                    <p class="ml-16 text-lg leading-6 font-medium text-gray-900">Your in control</p>
                                 </dt>
                                 <dd class="mt-2 ml-16 text-base text-gray-500">
-                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
+                                    You pay for the licences, therefore you are in control of absolutely everything without any limits.
                                 </dd>
                             </div>
 
@@ -431,10 +431,10 @@
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
                                         </svg>
                                     </div>
-                                    <p class="ml-16 text-lg leading-6 font-medium text-gray-900">Transfers are instant</p>
+                                    <p class="ml-16 text-lg leading-6 font-medium text-gray-900">Let machine learning takeover</p>
                                 </dt>
                                 <dd class="mt-2 ml-16 text-base text-gray-500">
-                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
+                                    Machine learning allows for the server to have a mind of its own - It makes decisions based on what you teach it giving you more time to focus on other things.
                                 </dd>
                             </div>
                         </dl>
