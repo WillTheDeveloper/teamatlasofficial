@@ -148,3 +148,371 @@
     </div>
 </div>
 
+
+
+<!-- This example requires Tailwind CSS v2.0+ -->
+<div class="relative bg-white pt-16 pb-32 overflow-hidden">
+    <div class="relative">
+        <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
+            <div class="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
+                <div>
+                    <div>
+            <span class="h-12 w-12 rounded-md flex items-center justify-center bg-indigo-600">
+              <!-- Heroicon name: outline/inbox -->
+              <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4" />
+              </svg>
+            </span>
+                    </div>
+                    <div class="mt-6">
+                        <h2 class="text-3xl font-extrabold tracking-tight text-gray-900">
+                            Using the latest server technology
+                        </h2>
+                        <p class="mt-4 text-lg text-gray-500">
+                            Amazon AWS allows you to use and manage your Lambda functions where all your deployments will run on. Don't worry though, Vapor handles all this for you from the dashboard.
+                        </p>
+                    </div>
+                </div>
+                <div class="mt-8 border-t border-gray-200 pt-6">
+                    <blockquote>
+                        <div>
+                            <p class="text-base text-gray-500">
+                                &ldquo;Cras velit quis eros eget rhoncus lacus ultrices sed diam. Sit orci risus aenean curabitur donec aliquet. Mi venenatis in euismod ut.&rdquo;
+                            </p>
+                        </div>
+                        <footer class="mt-3">
+                            <div class="flex items-center space-x-3">
+                                <div class="flex-shrink-0">
+                                    <img class="h-6 w-6 rounded-full" src="https://images.unsplash.com/photo-1509783236416-c9ad59bae472?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80" alt="">
+                                </div>
+                                <div class="text-base font-medium text-gray-700">
+                                    Marcia Hill, Digital Marketing Manager
+                                </div>
+                            </div>
+                        </footer>
+                    </blockquote>
+                </div>
+            </div>
+            <div class="mt-12 sm:mt-16 lg:mt-0">
+                <div class="pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
+                    <img class="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none" src="https://tailwindui.com/img/component-images/inbox-app-screenshot-1.jpg" alt="Inbox user interface">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mt-24">
+        <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
+            <div class="px-4 max-w-xl mx-auto sm:px-6 lg:py-32 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2">
+                <div>
+                    <div>
+            <span class="h-12 w-12 rounded-md flex items-center justify-center bg-indigo-600">
+              <!-- Heroicon name: outline/sparkles -->
+              <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
+              </svg>
+            </span>
+                    </div>
+                    <div class="mt-6">
+                        <h2 class="text-3xl font-extrabold tracking-tight text-gray-900">
+                            Security is key
+                        </h2>
+                        <p class="mt-4 text-lg text-gray-500">
+                            When running a website, you want to make sure that all the data you are storing is safe; This is where Vapor firewalls and AWS VPS works its magic and blocks crawlers and blocks any IP's that try to DDOS your site.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-12 sm:mt-16 lg:mt-0 lg:col-start-1">
+                <div class="pr-4 -ml-48 sm:pr-6 md:-ml-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
+                    <img class="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none" src="https://tailwindui.com/img/component-images/inbox-app-screenshot-2.jpg" alt="Customer profile user interface">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- This example requires Tailwind CSS v2.0+ -->
+<div class="relative bg-white pt-16 pb-32 overflow-hidden">
+    <div class="relative">
+        <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
+            <div class="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
+                <div>
+                    <div>
+            <span class="h-12 w-12 rounded-md flex items-center justify-center bg-indigo-600">
+              <!-- Heroicon name: outline/inbox -->
+              <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4" />
+              </svg>
+            </span>
+                    </div>
+                    <div class="mt-6">
+                        <h2 class="text-3xl font-extrabold tracking-tight text-gray-900">
+                            Everything in one place!
+                        </h2>
+                        <p class="mt-4 text-lg text-gray-500">
+                            All storage is saved in S3 buckets within AWS making it easy to manage and store files. Your information is important and these S3 buckets allow for custom permissions so nobody can steal it from you.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-12 sm:mt-16 lg:mt-0">
+                <div class="pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
+                    <img class="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none" src="https://tailwindui.com/img/component-images/inbox-app-screenshot-1.jpg" alt="Inbox user interface">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mt-24">
+        <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
+            <div class="px-4 max-w-xl mx-auto sm:px-6 lg:py-32 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2">
+                <div>
+                    <div>
+            <span class="h-12 w-12 rounded-md flex items-center justify-center bg-indigo-600">
+              <!-- Heroicon name: outline/sparkles -->
+              <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
+              </svg>
+            </span>
+                    </div>
+                    <div class="mt-6">
+                        <h2 class="text-3xl font-extrabold tracking-tight text-gray-900">
+                            Development made easy
+                        </h2>
+                        <p class="mt-4 text-lg text-gray-500">
+                            AWS supports Github continuous integration therefore, when an update is made, Github and AWS will automatically update your site with absolutely zero downtime in between; Nobody would even notice.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-12 sm:mt-16 lg:mt-0 lg:col-start-1">
+                <div class="pr-4 -ml-48 sm:pr-6 md:-ml-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
+                    <img class="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none" src="https://tailwindui.com/img/component-images/inbox-app-screenshot-2.jpg" alt="Customer profile user interface">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- This example requires Tailwind CSS v2.0+ -->
+<div class="bg-gray-50 overflow-hidden">
+    <div class="relative max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+        <svg class="absolute top-0 left-full transform -translate-x-1/2 -translate-y-3/4 lg:left-auto lg:right-full lg:translate-x-2/3 lg:translate-y-1/4" width="404" height="784" fill="none" viewBox="0 0 404 784" aria-hidden="true">
+            <defs>
+                <pattern id="8b1b5f72-e944-4457-af67-0c6d15a99f38" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+                    <rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
+                </pattern>
+            </defs>
+            <rect width="404" height="784" fill="url(#8b1b5f72-e944-4457-af67-0c6d15a99f38)" />
+        </svg>
+
+        <div class="relative lg:grid lg:grid-cols-3 lg:gap-x-8">
+            <div class="lg:col-span-1">
+                <h2 class="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                    Next generation websites and web servers.
+                </h2>
+            </div>
+            <dl class="mt-10 space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-x-8 sm:gap-y-10 lg:mt-0 lg:col-span-2">
+                <div>
+                    <dt>
+                        <div class="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                            <!-- Heroicon name: outline/globe-alt -->
+                            <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
+                            </svg>
+                        </div>
+                        <p class="mt-5 text-lg leading-6 font-medium text-gray-900">Rapid load times</p>
+                    </dt>
+                    <dd class="mt-2 text-base text-gray-500">
+                        Serverless technology allows for websites to load incredibly fast.
+                    </dd>
+                </div>
+
+                <div>
+                    <dt>
+                        <div class="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                            <!-- Heroicon name: outline/scale -->
+                            <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3" />
+                            </svg>
+                        </div>
+                        <p class="mt-5 text-lg leading-6 font-medium text-gray-900">Pay for what you use</p>
+                    </dt>
+                    <dd class="mt-2 text-base text-gray-500">
+                        Using serverless technology means that while nobody is on your site, you are not getting charged.
+                    </dd>
+                </div>
+
+                <div>
+                    <dt>
+                        <div class="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                            <!-- Heroicon name: outline/lightning-bolt -->
+                            <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                            </svg>
+                        </div>
+                        <p class="mt-5 text-lg leading-6 font-medium text-gray-900">Secure payments</p>
+                    </dt>
+                    <dd class="mt-2 text-base text-gray-500">
+                        Using the Stripe API ensures security when making payments.
+                    </dd>
+                </div>
+
+                <div>
+                    <dt>
+                        <div class="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                            <!-- Heroicon name: outline/mail -->
+                            <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                            </svg>
+                        </div>
+                        <p class="mt-5 text-lg leading-6 font-medium text-gray-900">Beautiful emails</p>
+                    </dt>
+                    <dd class="mt-2 text-base text-gray-500">
+                        Make your emails stand out from the crowd by using beautifully designed email templates.
+                    </dd>
+                </div>
+            </dl>
+        </div>
+    </div>
+</div>
+
+<footer class="bg-white" aria-labelledby="footerHeading">
+    <h2 id="footerHeading" class="sr-only">Footer</h2>
+    <div class="max-w-md mx-auto pt-12 px-4 sm:max-w-7xl sm:px-6 lg:pt-16 lg:px-8">
+        {{--<div class="xl:grid xl:grid-cols-3 xl:gap-8">
+            <div class="space-y-8 xl:col-span-1">
+                <img class="h-10" src="https://tailwindui.com/img/logos/workflow-mark-gray-300.svg"
+                     alt="Company name">
+                <p class="text-gray-500 text-base">
+                    Reinventing how websites are run to cut down on costs and increase performance and security.
+                </p>
+                <div class="flex space-x-6">
+                    <a href="#" class="text-gray-400 hover:text-gray-500">
+                        <span class="sr-only">GitHub</span>
+                        <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                            <path fill-rule="evenodd"
+                                  d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"
+                                  clip-rule="evenodd"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="mt-12 grid grid-cols-2 gap-8 xl:mt-0 xl:col-span-2">
+                <div class="md:grid md:grid-cols-2 md:gap-8">
+                    <div>
+                        <h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">
+                            Solutions
+                        </h3>
+                        <ul class="mt-4 space-y-4">
+                            <li>
+                                <a href="#" class="text-base text-gray-500 hover:text-gray-900">
+                                    Marketing
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="text-base text-gray-500 hover:text-gray-900">
+                                    Analytics
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="text-base text-gray-500 hover:text-gray-900">
+                                    Commerce
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="text-base text-gray-500 hover:text-gray-900">
+                                    Insights
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="mt-12 md:mt-0">
+                        <h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">
+                            Support
+                        </h3>
+                        <ul class="mt-4 space-y-4">
+                            <li>
+                                <a href="#" class="text-base text-gray-500 hover:text-gray-900">
+                                    Pricing
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="text-base text-gray-500 hover:text-gray-900">
+                                    Documentation
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="text-base text-gray-500 hover:text-gray-900">
+                                    Guides
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="md:grid md:grid-cols-2 md:gap-8">
+                    <div>
+                        <h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">
+                            Company
+                        </h3>
+                        <ul class="mt-4 space-y-4">
+                            <li>
+                                <a href="#" class="text-base text-gray-500 hover:text-gray-900">
+                                    About
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="text-base text-gray-500 hover:text-gray-900">
+                                    Blog
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="text-base text-gray-500 hover:text-gray-900">
+                                    Jobs
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="text-base text-gray-500 hover:text-gray-900">
+                                    Partners
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="mt-12 md:mt-0">
+                        <h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">
+                            Legal
+                        </h3>
+                        <ul class="mt-4 space-y-4">
+                            <li>
+                                <a href="#" class="text-base text-gray-500 hover:text-gray-900">
+                                    Privacy
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="text-base text-gray-500 hover:text-gray-900">
+                                    Terms
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>--}}
+        <div class="mt-12 border-t border-gray-200 py-8">
+            <p class="text-base text-gray-400 xl:text-center">
+                &copy; 2021 TeamATLAS Development Team
+            </p>
+        </div>
+
+    </div>
+</footer>
