@@ -90,13 +90,13 @@
                         <div class="pt-5 pb-6">
                             <div class="px-2 space-y-1">
                                 <a href="/"
-                                   class="block px-3 py-2 rounded-md text-base font-medium text-white hover:bg-gray-50">Home</a>
+                                   class="block px-3 py-2 rounded-md text-base font-medium text-white hover:bg-gray-50 focus:bg-gray-500">Home</a>
 
                                 <a href="/features"
-                                   class="block px-3 py-2 rounded-md text-base font-medium text-white hover:bg-gray-50">Features</a>
+                                   class="block px-3 py-2 rounded-md text-base font-medium text-white hover:bg-gray-50 focus:bg-gray-500">Features</a>
 
                                 <a href="/about"
-                                   class="block px-3 py-2 rounded-md text-base font-medium text-white hover:bg-gray-50">About Us</a>
+                                   class="block px-3 py-2 rounded-md text-base font-medium text-white hover:bg-gray-50 focus:bg-gray-500">About Us</a>
                             </div>
                         </div>
                     </div>
