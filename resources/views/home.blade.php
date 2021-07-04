@@ -337,8 +337,8 @@
                                 </p>
                             </div>
                             <footer class="mt-6">
-                                <p class="text-base font-medium text-white">Will Burton</p>
-                                <p class="text-base font-medium text-cyan-100">Server Management Leader</p>
+                                <p class="text-base font-medium text-white">Will</p>
+                                <p class="text-base font-medium text-cyan-100">Server Infrastructure Architect</p>
                             </footer>
                         </blockquote>
                     </div>
