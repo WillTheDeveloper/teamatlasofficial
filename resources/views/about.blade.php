@@ -164,7 +164,7 @@
                         <div class="space-y-2 xl:flex xl:items-center xl:justify-between">
                             <div class="font-medium text-lg leading-6 space-y-1">
                                 <h3 class="text-white">Cory</h3>
-                                <p class="text-indigo-400">Frontend Developer</p>
+                                <p class="text-indigo-400">Webpage Designer</p>
                             </div>
 
                             <ul class="flex justify-center space-x-5">
@@ -184,7 +184,7 @@
                         <div class="space-y-2 xl:flex xl:items-center xl:justify-between">
                             <div class="font-medium text-lg leading-6 space-y-1">
                                 <h3 class="text-white">Will</h3>
-                                <p class="text-indigo-400">Backend Developer</p>
+                                <p class="text-indigo-400">Server Infrastructure Architect</p>
                             </div>
 
                             <ul class="flex justify-center space-x-5">
