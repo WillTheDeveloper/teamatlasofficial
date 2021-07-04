@@ -506,22 +506,22 @@
                 </p>
                 <div class="mt-6 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-8">
                     <div class="col-span-1 flex justify-center py-8 px-8 shadow bg-gradient-to-r from-teal-500 to-cyan-600">
-                        <i class="fab fa-aws fa-3x text-gray-400"></i>
+                        <i class="fab fa-aws fa-3x text-white"></i>
                     </div>
                     <div class="col-span-1 flex justify-center py-8 px-8 bg-cyan-600">
-                        <i class="fab fa-3x fa-laravel text-gray-400"></i>
+                        <i class="fab fa-3x fa-laravel text-white"></i>
                     </div>
                     <div class="col-span-1 flex justify-center py-8 px-8 bg-gradient-to-r from-cyan-600 to-teal-500">
-                        <i class="fab fa-3x fa-github text-gray-400"></i>
+                        <i class="fab fa-3x fa-github text-white"></i>
                     </div>
                     <div class="col-span-1 flex justify-center py-8 px-8 bg-gradient-to-r from-teal-500 to-cyan-600">
-                        <i class="fab fa-microsoft fa-3x text-gray-400"></i>
+                        <i class="fab fa-microsoft fa-3x text-white"></i>
                     </div>
                     <div class="col-span-1 flex justify-center py-8 px-8 bg-cyan-600">
-                        <i class="fab fa-ubuntu fa-3x text-gray-400"></i>
+                        <i class="fab fa-ubuntu fa-3x text-white"></i>
                     </div>
                     <div class="col-span-1 flex justify-center py-8 px-8 bg-gradient-to-r from-cyan-600 to-teal-500">
-                        <i class="fab fa-stripe fa-3x text-gray-400"></i>
+                        <i class="fab fa-stripe fa-3x text-white"></i>
                     </div>
                 </div>
             </div>
