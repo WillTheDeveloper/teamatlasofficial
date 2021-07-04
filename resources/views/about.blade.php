@@ -169,9 +169,9 @@
 
                             <ul class="flex justify-center space-x-5">
                                 <li>
-                                    <a href="#" class="text-gray-400 hover:text-gray-300">
-                                        <span class="sr-only">Twitter</span>
-                                        <i class="fab fa-2x fa-twitter"></i>
+                                    <a href="https://github.com/CorySheppard" class="text-gray-400 hover:text-gray-300">
+                                        <span class="sr-only">Github</span>
+                                        <i class="fab fa-2x fa-github"></i>
                                     </a>
                                 </li>
                             </ul>
