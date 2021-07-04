@@ -85,16 +85,13 @@
                         <div class="pt-5 pb-6">
                             <div class="px-2 space-y-1">
                                 <a href="#"
-                                   class="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:bg-gray-50">Product</a>
+                                   class="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:bg-gray-50">Home</a>
 
                                 <a href="#"
                                    class="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:bg-gray-50">Features</a>
 
                                 <a href="#"
-                                   class="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:bg-gray-50">Marketplace</a>
-
-                                <a href="#"
-                                   class="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:bg-gray-50">Company</a>
+                                   class="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:bg-gray-50">About Us</a>
                             </div>
                             <div class="mt-6 px-5">
                                 <a href="#"
