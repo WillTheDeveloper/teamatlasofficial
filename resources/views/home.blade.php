@@ -312,17 +312,6 @@
         <!-- Testimonial section -->
         <div class="bg-gradient-to-r from-teal-500 to-cyan-600 lg:pb-0 lg:z-10 lg:relative">
             <div class="lg:mx-auto flex justify-center lg:max-w-7xl">
-                <div class="relative lg:-my-8">
-                    <div aria-hidden="true" class="absolute inset-x-0 top-0 bg-white lg:hidden"></div>
-                    <div class="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:p-0 lg:h-full">
-                        {{--<div
-                            class="aspect-w-10 aspect-h-6 rounded-xl shadow-xl overflow-hidden sm:aspect-w-16 sm:aspect-h-7 lg:aspect-none lg:h-full">
-                            <img class="object-cover lg:h-full lg:w-full"
-                                 src="https://images.unsplash.com/photo-1520333789090-1afc82db536a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2102&q=80"
-                                 alt="">
-                        </div>--}}
-                    </div>
-                </div>
                 <div class="lg:m-0 max-w-4xl col-span-3">
                     <div class="mx-auto text-center px-4 py-8 sm:px-6 lg:px-0 lg:py-12">
                         <blockquote>
