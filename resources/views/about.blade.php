@@ -151,7 +151,7 @@
                 <h2 class="text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl">Meet our team</h2>
                 <p class="text-xl text-gray-900">Team of developers that made all of this possible.</p>
             </div>
-            <ul class="space-y-4 sm:grid sm:grid-cols-2 sm:gap-6 sm:space-y-0 lg:grid-cols-3 lg:gap-8">
+            <ul class="space-y-4 sm:grid sm:grid-cols-2 sm:gap-6 sm:space-y-0 lg:grid-cols-2 lg:gap-8">
                 <li class="py-10 px-6 bg-gray-800 text-center rounded-lg xl:px-10 xl:text-left">
                     <div class="space-y-6 xl:space-y-10">
                         <div class="space-y-2 xl:flex xl:items-center xl:justify-between">
@@ -169,6 +169,12 @@
                                 </li>
                             </ul>
                         </div>
+
+                        <div>
+                            <p class="text-white text-center pb-2">What West Nottinghamshire College said about Cory:</p>
+                            <p class="text-gray-400 text-center ">"Cory is a dedicated and hardworking student who has shown a mature approach to his Industry Placement within the IT Sector. He is extremely goal driven and has shown his ability to meet deadlines promptly with a professional attitude and a knowledgeable skill base. His willingness to learn and progress is an excellent example of his commitment and I am confident that Cory will be able to show a high level of professional creativity and enthusiasm in anything he chooses to pursue."</p>
+                        </div>
+
                     </div>
                 </li>
 
@@ -195,6 +201,11 @@
                                     </a>
                                 </li>
                             </ul>
+                        </div>
+
+                        <div>
+                            <p class="text-white text-center pb-2">What West Nottinghamshire College said about Will:</p>
+                            <p class="text-gray-400 text-center">"William is a dedicated and hardworking student who has shown a mature approach to his Industry Placement within the IT Sector. He is extremely goal driven and has shown his ability to meet deadlines promptly and submitting work that often exceeds expectations. His eagerness to learn and progress is an excellent example of his commitment and I am confident that William will be able to show a high level of professional creativeness and enthusiasm in anything he chooses to pursue."</p>
                         </div>
                     </div>
                 </li>
