@@ -134,7 +134,7 @@
                             <div class="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 lg:max-w-none lg:px-0">
                                 <!-- Illustration taken from Lucid Illustrations: https://lucid.pixsellz.io/ -->
                                 <img class="w-full lg:absolute lg:inset-y-0 lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
-                                     src="https://tailwindui.com/img/component-images/cloud-illustration-teal-cyan.svg"
+                                     src="https://teamatlasofficial.s3.eu-west-2.amazonaws.com/svg/personupdown.svg"
                                      alt="">
                             </div>
                         </div>
