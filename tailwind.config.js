@@ -12,6 +12,9 @@ module.exports = {
         colors: {
             teal: colors.teal,
             cyan: colors.cyan,
+            'logo-start': '#2CC6FD',
+            'logo-middle': '#697EFE',
+            'logo-end': '#AB2EFE'
         }
     },
   },
