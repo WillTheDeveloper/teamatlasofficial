@@ -173,7 +173,7 @@
                         </div>
 
                         <div>
-                            <p class="text-white text-center pb-2">What West Nottinghamshire College said about Cory:</p>
+                            <p class="text-white text-center pb-2">What College said about Cory:</p>
                             <p class="text-gray-400 text-center ">"Cory is a dedicated and hardworking student who has shown a mature approach to his Industry Placement within the IT Sector. He is extremely goal driven and has shown his ability to meet deadlines promptly with a professional attitude and a knowledgeable skill base. His willingness to learn and progress is an excellent example of his commitment and I am confident that Cory will be able to show a high level of professional creativity and enthusiasm in anything he chooses to pursue."</p>
                         </div>
 
@@ -206,7 +206,7 @@
                         </div>
 
                         <div>
-                            <p class="text-white text-center pb-2">What West Nottinghamshire College said about Will:</p>
+                            <p class="text-white text-center pb-2">What College said about Will:</p>
                             <p class="text-gray-400 text-center">"William is a dedicated and hardworking student who has shown a mature approach to his Industry Placement within the IT Sector. He is extremely goal driven and has shown his ability to meet deadlines promptly and submitting work that often exceeds expectations. His eagerness to learn and progress is an excellent example of his commitment and I am confident that William will be able to show a high level of professional creativeness and enthusiasm in anything he chooses to pursue."</p>
                         </div>
                     </div>
