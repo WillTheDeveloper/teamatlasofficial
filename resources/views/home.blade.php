@@ -19,42 +19,48 @@
 
             <!-- grid background -->
             <div class="grid-background absolute inset-0 p-2 grid grid-cols-12 gap-2 transform -skew-y-6 scale-125">
+
+                {{--<div class="col-span-2 bg-gray-800 rounded animate-pulse"></div>
+                <div class="col-span-5 bg-gray-800 rounded animate-pulse"></div>
+                <div class="col-span-1 bg-gray-800 rounded animate-pulse"></div>
+                <div class="col-span-4 bg-gray-800 rounded animate-pulse"></div>--}}
+
                 <!-- row 1 -->
-                <div class="col-span-2 bg-gray-800 rounded animate-pulse"></div>
-                <div class="col-span-5 bg-gray-800 rounded animate-pulse"></div>
-                <div class="col-span-1 bg-gray-800 rounded animate-pulse"></div>
-                <div class="col-span-4 bg-gray-800 rounded animate-pulse"></div>
+                    <div class="col-span-2 bg-logo-start rounded animate-pulse"></div>
+                    <div class="col-span-5 bg-logo-middle rounded animate-pulse"></div>
+                    <div class="col-span-1 bg-logo-end rounded animate-pulse"></div>
+                    <div class="col-span-4 bg-logo-middle rounded animate-pulse"></div>
 
-                <!-- row 2 -->
-                <div class="col-span-5 bg-gray-800 rounded animate-pulse"></div>
-                <div class="col-span-3 bg-gray-800 rounded animate-pulse"></div>
-                <div class="col-span-2 bg-gray-800 rounded animate-pulse"></div>
-                <div class="col-span-2 bg-gray-800 rounded animate-pulse"></div>
+                    <!-- row 2 -->
+                    <div class="col-span-5 bg-logo-middle rounded animate-pulse"></div>
+                    <div class="col-span-3 bg-logo-end rounded animate-pulse"></div>
+                    <div class="col-span-2 bg-logo-start rounded animate-pulse"></div>
+                    <div class="col-span-2 bg-gray-800 rounded animate-pulse"></div>
 
-                <!-- row 3 -->
-                <div class="col-span-4 bg-gray-800 rounded animate-pulse"></div>
-                <div class="col-span-7 bg-gray-800 rounded animate-pulse"></div>
-                <div class="col-span-1 bg-gray-800 rounded animate-pulse"></div>
+                    <!-- row 3 -->
+                    <div class="col-span-4 bg-logo-end rounded animate-pulse"></div>
+                    <div class="col-span-7 bg-logo-middle rounded animate-pulse"></div>
+                    <div class="col-span-1 bg-logo-start rounded animate-pulse"></div>
 
-                <!-- row 4 -->
-                <div class="col-span-2 bg-gray-800 rounded animate-pulse"></div>
-                <div class="col-span-4 bg-gray-800 rounded animate-pulse"></div>
-                <div class="col-span-6 bg-gray-800 rounded animate-pulse"></div>
+                    <!-- row 4 -->
+                    <div class="col-span-2 bg-logo-middle rounded animate-pulse"></div>
+                    <div class="col-span-4 bg-logo-end rounded animate-pulse"></div>
+                    <div class="col-span-6 bg-logo-start rounded animate-pulse"></div>
 
-                <!-- row 5 -->
-                <div class="col-span-5 bg-gray-800 rounded animate-pulse"></div>
-                <div class="col-span-5 bg-gray-800 rounded animate-pulse"></div>
-                <div class="col-span-2 bg-gray-800 rounded animate-pulse"></div>
+                    <!-- row 5 -->
+                    <div class="col-span-5 bg-logo-end rounded animate-pulse"></div>
+                    <div class="col-span-5 bg-logo-middle rounded animate-pulse"></div>
+                    <div class="col-span-2 bg-logo-start rounded animate-pulse"></div>
 
-                <!-- row 6 -->
-                <div class="col-span-4 bg-gray-800 rounded animate-pulse"></div>
-                <div class="col-span-7 bg-gray-800 rounded animate-pulse"></div>
-                <div class="col-span-1 bg-gray-800 rounded animate-pulse"></div>
+                    <!-- row 6 -->
+                    <div class="col-span-4 bg-logo-middle rounded animate-pulse"></div>
+                    <div class="col-span-7 bg-logo-start rounded animate-pulse"></div>
+                    <div class="col-span-1 bg-logo-end rounded animate-pulse"></div>
 
-                <!-- row 7 -->
-                <div class="col-span-4 bg-gray-800 rounded animate-pulse"></div>
-                <div class="col-span-7 bg-gray-800 rounded animate-pulse"></div>
-                <div class="col-span-1 bg-gray-800 rounded animate-pulse"></div>
+                    <!-- row 7 -->
+                    <div class="col-span-4 bg-logo-end rounded animate-pulse"></div>
+                    <div class="col-span-7 bg-logo-middle rounded animate-pulse"></div>
+                    <div class="col-span-1 bg-logo-start rounded animate-pulse"></div>
             </div>
 
             <!-- content -->
