@@ -17,18 +17,33 @@
                 <div class="pt-6">
                     <nav class="relative max-w-7xl mx-auto flex items-center justify-between px-4 sm:px-6"
                          aria-label="Global">
-                        <div class="flex items-center flex-1">
-                            <div class="flex items-center justify-between w-full md:w-auto">
-                                <a href="/">
-                                    <span class="sr-only">Workflow</span>
-                                    {{--<img class="h-8 w-auto sm:h-10"
-                                         src="https://tailwindui.com/img/logos/workflow-mark-teal-200-cyan-400.svg"
-                                         alt="">--}}
-                                    <i class="fas fa-3x fa-cloud text-white"></i>
-                                </a>
+                        <div class="self-center w-full">
+                            <div class="flex flex-row justify-between">
+                                <div class="flex items-center">
+                                    <a href="/">
+                                        <span class="sr-only">TeamATLAS</span>
+                                        <i class="fas fa-3x fa-cloud text-white"></i>
+                                    </a>
+                                    <div class="hidden space-x-8 md:flex md:ml-10">
+                                        <a href="/" class="text-base font-medium text-white hover:text-gray-300">Home</a>
+
+                                        <a href="/features" class="text-base font-medium text-white hover:text-gray-300">Features</a>
+
+                                        <a href="/about" class="text-base font-medium text-white hover:text-gray-300">About
+                                            Us</a>
+                                    </div>
+                                </div>
+                                <div class="flex flex-row space-x-4 self-center hidden md:block">
+                                    <a href="https://github.com/TeamATLAS-Cloud">
+                                        <i class="fab fa-github fa-2x text-white"></i>
+                                    </a>
+                                    <a href="https://discord.gg/edDpjEUse6">
+                                        <i class="fab fa-discord fa-2x  text-white"></i>
+                                    </a>
+                                </div>
                                 <div class="-mr-2 flex items-center md:hidden">
                                     <button @click="mobileDropdown = true" type="button"
-                                            class="bg-gray-900 rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:bg-gray-800"
+                                            class="rounded-md p-2 inline-flex items-center justify-center text-gray-400"
                                             aria-expanded="false">
                                         <span class="sr-only">Open main menu</span>
                                         <!-- Heroicon name: outline/menu -->
@@ -39,13 +54,6 @@
                                         </svg>
                                     </button>
                                 </div>
-                            </div>
-                            <div class="hidden space-x-8 md:flex md:ml-10">
-                                <a href="/" class="text-base font-medium text-white hover:text-gray-300">Home</a>
-
-                                <a href="/features" class="text-base font-medium text-white hover:text-gray-300">Features</a>
-
-                                <a href="/about" class="text-base font-medium text-white hover:text-gray-300">About Us</a>
                             </div>
                         </div>
                     </nav>
@@ -67,7 +75,8 @@
                      x-transition:enter-end="opacity-100 translate-y-0"
                      x-transition:leave="transition ease-in duration-150"
                      x-transition:leave-start="opacity-100 translate-y-0"
-                     x-transition:leave-end="opacity-0 translate-y-1" @click.away="mobileDropdown = true" class="absolute top-0 inset-x-0 p-2 transition transform origin-top md:hidden">
+                     x-transition:leave-end="opacity-0 translate-y-1" @click.away="mobileDropdown = false"
+                     class="absolute top-0 inset-x-0 p-2 transition transform origin-top md:hidden">
                     <div class="rounded-lg shadow-md bg-gray-600 ring-1 ring-black ring-opacity-5 overflow-hidden">
                         <div class="px-5 pt-4 flex items-center justify-between">
                             <div>
@@ -174,7 +183,13 @@
 
                         <div>
                             <p class="text-white text-center pb-2">What College said about Cory:</p>
-                            <p class="text-gray-400 text-center ">"Cory is a dedicated and hardworking student who has shown a mature approach to his Industry Placement within the IT Sector. He is extremely goal driven and has shown his ability to meet deadlines promptly with a professional attitude and a knowledgeable skill base. His willingness to learn and progress is an excellent example of his commitment and I am confident that Cory will be able to show a high level of professional creativity and enthusiasm in anything he chooses to pursue."</p>
+                            <p class="text-gray-400 text-center ">"Cory is a dedicated and hardworking student who has
+                                shown a mature approach to his Industry Placement within the IT Sector. He is extremely
+                                goal driven and has shown his ability to meet deadlines promptly with a professional
+                                attitude and a knowledgeable skill base. His willingness to learn and progress is an
+                                excellent example of his commitment and I am confident that Cory will be able to show a
+                                high level of professional creativity and enthusiasm in anything he chooses to
+                                pursue."</p>
                         </div>
 
                     </div>
@@ -197,7 +212,8 @@
                                 </li>
 
                                 <li>
-                                    <a href="https://github.com/WillTheDeveloper" class="text-gray-400 hover:text-gray-300">
+                                    <a href="https://github.com/WillTheDeveloper"
+                                       class="text-gray-400 hover:text-gray-300">
                                         <span class="sr-only">Github</span>
                                         <i class="fab fa-2x fa-github"></i>
                                     </a>
@@ -207,12 +223,15 @@
 
                         <div>
                             <p class="text-white text-center pb-2">What College said about Will:</p>
-                            <p class="text-gray-400 text-center">"William is a dedicated and hardworking student who has shown a mature approach to his Industry Placement within the IT Sector. He is extremely goal driven and has shown his ability to meet deadlines promptly and submitting work that often exceeds expectations. His eagerness to learn and progress is an excellent example of his commitment and I am confident that William will be able to show a high level of professional creativeness and enthusiasm in anything he chooses to pursue."</p>
+                            <p class="text-gray-400 text-center">"William is a dedicated and hardworking student who has
+                                shown a mature approach to his Industry Placement within the IT Sector. He is extremely
+                                goal driven and has shown his ability to meet deadlines promptly and submitting work
+                                that often exceeds expectations. His eagerness to learn and progress is an excellent
+                                example of his commitment and I am confident that William will be able to show a high
+                                level of professional creativeness and enthusiasm in anything he chooses to pursue."</p>
                         </div>
                     </div>
                 </li>
-
-                <!-- More people... -->
             </ul>
         </div>
     </div>
@@ -220,133 +239,6 @@
 <footer class="bg-white" aria-labelledby="footerHeading">
     <h2 id="footerHeading" class="sr-only">Footer</h2>
     <div class="max-w-md mx-auto pt-12 px-4 sm:max-w-7xl sm:px-6 lg:pt-16 lg:px-8">
-        {{--<div class="xl:grid xl:grid-cols-3 xl:gap-8">
-            <div class="space-y-8 xl:col-span-1">
-                <img class="h-10" src="https://tailwindui.com/img/logos/workflow-mark-gray-300.svg"
-                     alt="Company name">
-                <p class="text-gray-500 text-base">
-                    Reinventing how websites are run to cut down on costs and increase performance and security.
-                </p>
-                <div class="flex space-x-6">
-                    <a href="#" class="text-gray-400 hover:text-gray-500">
-                        <span class="sr-only">GitHub</span>
-                        <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                            <path fill-rule="evenodd"
-                                  d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"
-                                  clip-rule="evenodd"/>
-                        </svg>
-                    </a>
-                </div>
-            </div>
-            <div class="mt-12 grid grid-cols-2 gap-8 xl:mt-0 xl:col-span-2">
-                <div class="md:grid md:grid-cols-2 md:gap-8">
-                    <div>
-                        <h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">
-                            Solutions
-                        </h3>
-                        <ul class="mt-4 space-y-4">
-                            <li>
-                                <a href="#" class="text-base text-gray-500 hover:text-gray-900">
-                                    Marketing
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="#" class="text-base text-gray-500 hover:text-gray-900">
-                                    Analytics
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="#" class="text-base text-gray-500 hover:text-gray-900">
-                                    Commerce
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="#" class="text-base text-gray-500 hover:text-gray-900">
-                                    Insights
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="mt-12 md:mt-0">
-                        <h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">
-                            Support
-                        </h3>
-                        <ul class="mt-4 space-y-4">
-                            <li>
-                                <a href="#" class="text-base text-gray-500 hover:text-gray-900">
-                                    Pricing
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="#" class="text-base text-gray-500 hover:text-gray-900">
-                                    Documentation
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="#" class="text-base text-gray-500 hover:text-gray-900">
-                                    Guides
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="md:grid md:grid-cols-2 md:gap-8">
-                    <div>
-                        <h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">
-                            Company
-                        </h3>
-                        <ul class="mt-4 space-y-4">
-                            <li>
-                                <a href="#" class="text-base text-gray-500 hover:text-gray-900">
-                                    About
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="#" class="text-base text-gray-500 hover:text-gray-900">
-                                    Blog
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="#" class="text-base text-gray-500 hover:text-gray-900">
-                                    Jobs
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="#" class="text-base text-gray-500 hover:text-gray-900">
-                                    Partners
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="mt-12 md:mt-0">
-                        <h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">
-                            Legal
-                        </h3>
-                        <ul class="mt-4 space-y-4">
-                            <li>
-                                <a href="#" class="text-base text-gray-500 hover:text-gray-900">
-                                    Privacy
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="#" class="text-base text-gray-500 hover:text-gray-900">
-                                    Terms
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>--}}
         <div class="mt-12 border-t border-gray-200 py-8">
             <p class="text-base text-gray-400 xl:text-center">
                 &copy; 2021 TeamATLAS Development Team
