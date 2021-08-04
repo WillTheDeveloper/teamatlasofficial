@@ -118,14 +118,14 @@
                              x-transition:leave="transition ease-in duration-150"
                              x-transition:leave-start="opacity-100 translate-y-0"
                              x-transition:leave-end="opacity-0 translate-y-1" @click.away="mobileDropdown = true" class="absolute top-0 inset-x-0 p-2 transition transform origin-top md:hidden">
-                            <div class="rounded-lg shadow-md bg-gray-600 ring-1 ring-black ring-opacity-5 overflow-hidden">
+                            <div class="rounded-lg shadow-md bg-gradient-to-br from-logo-start to-logo-middle via-logo-end ring-1 ring-black ring-opacity-5 overflow-hidden">
                                 <div class="px-5 pt-4 flex items-center justify-between">
                                     <div>
                                         <i class="fas fa-3x fa-cloud text-white"></i>
                                     </div>
                                     <div class="-mr-2">
                                         <button @click="mobileDropdown = false" type="button"
-                                                class="bg-gray-600 rounded-md p-2 inline-flex items-center justify-center text-gray-400">
+                                                class="bg-red-600 rounded-md p-2 inline-flex items-center justify-center text-gray-400">
                                             <span class="sr-only">Close menu</span>
                                             <!-- Heroicon name: outline/x -->
                                             <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none"
