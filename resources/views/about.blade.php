@@ -10,13 +10,54 @@
 </head>
 
 <body>
-<div class="bg-white">
-    <div class="relative overflow-hidden">
-        <div class="bg-gradient-to-br from-logo-start via-logo-middle to-logo-end">
+<div class="relative h-1/2 flex items-center justify-center bg-gray-900">
+
+    <!-- grid background -->
+    <div class="grid-background absolute inset-0 p-2 grid grid-cols-12 gap-2 transform -skew-y-6 scale-125">
+        <!-- row 1 -->
+        <div class="col-span-2 bg-gray-800 rounded animate-pulse"></div>
+        <div class="col-span-5 bg-gray-800 rounded animate-pulse"></div>
+        <div class="col-span-1 bg-gray-800 rounded animate-pulse"></div>
+        <div class="col-span-4 bg-gray-800 rounded animate-pulse"></div>
+
+        <!-- row 2 -->
+        <div class="col-span-5 bg-gray-800 rounded animate-pulse"></div>
+        <div class="col-span-3 bg-gray-800 rounded animate-pulse"></div>
+        <div class="col-span-2 bg-gray-800 rounded animate-pulse"></div>
+        <div class="col-span-2 bg-gray-800 rounded animate-pulse"></div>
+
+        <!-- row 3 -->
+        <div class="col-span-4 bg-gray-800 rounded animate-pulse"></div>
+        <div class="col-span-7 bg-gray-800 rounded animate-pulse"></div>
+        <div class="col-span-1 bg-gray-800 rounded animate-pulse"></div>
+
+        <!-- row 4 -->
+        <div class="col-span-2 bg-gray-800 rounded animate-pulse"></div>
+        <div class="col-span-4 bg-gray-800 rounded animate-pulse"></div>
+        <div class="col-span-6 bg-gray-800 rounded animate-pulse"></div>
+
+        <!-- row 5 -->
+        <div class="col-span-5 bg-gray-800 rounded animate-pulse"></div>
+        <div class="col-span-5 bg-gray-800 rounded animate-pulse"></div>
+        <div class="col-span-2 bg-gray-800 rounded animate-pulse"></div>
+
+        <!-- row 6 -->
+        <div class="col-span-4 bg-gray-800 rounded animate-pulse"></div>
+        <div class="col-span-7 bg-gray-800 rounded animate-pulse"></div>
+        <div class="col-span-1 bg-gray-800 rounded animate-pulse"></div>
+
+        <!-- row 7 -->
+        <div class="col-span-4 bg-gray-800 rounded animate-pulse"></div>
+        <div class="col-span-7 bg-gray-800 rounded animate-pulse"></div>
+        <div class="col-span-1 bg-gray-800 rounded animate-pulse"></div>
+    </div>
+
+    <!-- content -->
+    <div class="relative">
+        <div>
             <header x-data="{ mobileDropdown: false }" class="relative">
                 <div class="pt-6">
-                    <nav class="relative max-w-7xl mx-auto flex items-center justify-between px-4 sm:px-6"
-                         aria-label="Global">
+                    <nav class="relative max-w-7xl mx-auto flex items-center justify-between px-4 sm:px-6" aria-label="Global">
                         <div class="self-center w-full">
                             <div class="flex flex-row justify-between">
                                 <div class="flex items-center">
@@ -59,24 +100,13 @@
                     </nav>
                 </div>
 
-                <!--
-                  Mobile menu, show/hide based on menu open state.
-
-                  Entering: "duration-150 ease-out"
-                    From: "opacity-0 scale-95"
-                    To: "opacity-100 scale-100"
-                  Leaving: "duration-100 ease-in"
-                    From: "opacity-100 scale-100"
-                    To: "opacity-0 scale-95"
-                -->
                 <div x-show="mobileDropdown"
                      x-transition:enter="transition ease-out duration-200"
                      x-transition:enter-start="opacity-0 translate-y-1"
                      x-transition:enter-end="opacity-100 translate-y-0"
                      x-transition:leave="transition ease-in duration-150"
                      x-transition:leave-start="opacity-100 translate-y-0"
-                     x-transition:leave-end="opacity-0 translate-y-1" @click.away="mobileDropdown = false"
-                     class="absolute top-0 inset-x-0 p-2 transition transform origin-top md:hidden">
+                     x-transition:leave-end="opacity-0 translate-y-1" @click.away="mobileDropdown = true" class="absolute top-0 inset-x-0 p-2 transition transform origin-top md:hidden z-50">
                     <div class="rounded-lg shadow-md bg-gray-600 ring-1 ring-black ring-opacity-5 overflow-hidden">
                         <div class="px-5 pt-4 flex items-center justify-between">
                             <div>
@@ -95,7 +125,7 @@
                                 </button>
                             </div>
                         </div>
-                        <div class="pt-5 pb-6">
+                        <div class="pt-5 pb-6 flex flex-col space-y-2">
                             <div class="px-2 space-y-1">
                                 <a href="/"
                                    class="block px-3 py-2 rounded-md text-base font-medium text-white hover:bg-gray-50 focus:bg-gray-500">Home</a>
@@ -106,6 +136,14 @@
                                 <a href="/about"
                                    class="block px-3 py-2 rounded-md text-base font-medium text-white hover:bg-gray-50 focus:bg-gray-500">About Us</a>
                             </div>
+                            <div class="flex flex-row space-x-4 pl-4 pt-2">
+                                <a href="https://github.com/TeamATLAS-Cloud">
+                                    <i class="fab fa-github fa-2x text-white"></i>
+                                </a>
+                                <a href="https://discord.gg/edDpjEUse6">
+                                    <i class="fab fa-discord fa-2x  text-white"></i>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -113,7 +151,7 @@
             <div class="pt-10 sm:pt-16 lg:pt-8 lg:pb-14 lg:overflow-hidden">
 
                 <div class="mx-auto max-w-7xl lg:px-8">
-                    <div class="lg:grid lg:grid-cols-2 lg:gap-8">
+                    <div class="lg:grid lg:grid-cols-2 lg:gap-8 pb-16">
                         <div
                             class="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 sm:text-center lg:px-0 lg:text-left lg:flex lg:items-center">
                             <div class="lg:py-24">
@@ -123,28 +161,11 @@
                                 <p class="text-base text-gray-300 sm:text-xl lg:text-lg xl:text-xl">
                                     Development in serverless technologies and machine learning.
                                 </p>
-                                {{--<div class="mt-10 sm:mt-12">
-                                    <form action="#" class="sm:max-w-xl sm:mx-auto lg:mx-0">
-                                        <div class="sm:flex">
-                                            <div class="min-w-0 flex-1">
-                                                <label for="email" class="sr-only">Email address</label>
-                                                <input id="email" type="email" placeholder="Enter your email" class="block w-full px-4 py-3 rounded-md border-0 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cyan-400 focus:ring-offset-gray-900">
-                                            </div>
-                                            <div class="mt-3 sm:mt-0 sm:ml-3">
-                                                <button type="submit" class="block w-full py-3 px-4 rounded-md shadow bg-gradient-to-r from-teal-500 to-cyan-600 text-white font-medium hover:from-teal-600 hover:to-cyan-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cyan-400 focus:ring-offset-gray-900">Start free trial</button>
-                                            </div>
-                                        </div>
-                                        <p class="mt-3 text-sm text-gray-300 sm:mt-4">Start your free 14-day trial, no credit card necessary. By providing your email, you agree to our <a href="#" class="font-medium text-white">terms or service</a>.</p>
-                                    </form>
-                                </div>--}}
                             </div>
                         </div>
-                        <div class="mt-12 -mb-16 sm:-mb-48 lg:m-0 lg:relative">
-                            <div class="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 lg:max-w-none lg:px-0">
-                                <!-- Illustration taken from Lucid Illustrations: https://lucid.pixsellz.io/ -->
-                                <img class="w-full lg:absolute lg:inset-y-0 lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
-                                     src="https://teamatlasofficial.s3.eu-west-2.amazonaws.com/svg/personupdown.svg"
-                                     alt="">
+                        <div class="mt-12 -mb-16 sm:-mb-48 hidden md:block">
+                            <div class="mx-auto max-w-md px-4 justify-center flex">
+                                <img class="w-48 md:w-80 h-auto" src="https://teamatlasofficial.s3.eu-west-2.amazonaws.com/svg/cloudupdown.svg" alt="">
                             </div>
                         </div>
                     </div>
@@ -155,7 +176,7 @@
 </div>
 
 <!-- This example requires Tailwind CSS v2.0+ -->
-<div class="bg-white">
+<div class="relative bg-white pb-32 overflow-hidden">
     <div class="mx-auto py-12 px-4 max-w-7xl sm:px-6 lg:px-8 lg:py-24">
         <div class="space-y-12">
             <div class="space-y-5 sm:space-y-4 md:max-w-xl lg:max-w-3xl xl:max-w-none">
@@ -248,5 +269,29 @@
     </div>
 </footer>
 </div>
+
+<script>
+    // grab everything we need
+    const gridItems = document.querySelectorAll(".grid-background > div");
+
+    // loop over grid items and create a random duration + delay for each
+    gridItems.forEach((item) => {
+        // calculate random number for delay
+        const delay = getRandomInt(0, 5);
+
+        // calculate random number for duration
+        const duration = getRandomInt(3, 6);
+
+        // set both
+        item.style.animationDelay = `${delay}s`;
+        item.style.animationDuration = `${duration}s`;
+    });
+
+    function getRandomInt(min, max) {
+        min = Math.ceil(min);
+        max = Math.floor(max);
+        return Math.floor(Math.random() * (max - min + 1)) + min;
+    }
+</script>
 
 </body>
