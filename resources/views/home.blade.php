@@ -6,6 +6,7 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.2/dist/alpine.min.js" defer></script>
     <script src="https://kit.fontawesome.com/589ed6e880.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="https://teamatlasofficial.s3.eu-west-2.amazonaws.com/favicon.ico">
     <title>TeamATLAS | Home</title>
 </head>
 
@@ -196,7 +197,7 @@
                         No server? No problem.
                     </p>
                     <p class="mt-5 max-w-prose mx-auto text-xl text-gray-500">
-                        Serverless technology allows you to deploy sites fast and easily as you do no need to do any provisioning.
+                        Serverless technology allows you to deploy sites fast and easily as you do not need to do any provisioning.
                     </p>
                 </div>
                 <div class="mt-12 -mb-10 sm:-mb-24 lg:-mb-32">
@@ -303,7 +304,7 @@
                                     <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">Advanced
                                         Security</h3>
                                     <p class="mt-5 text-base text-gray-500">
-                                        Using AWS Virtual Private Servers ensures that nobody will be stealing your data and you can trust its safe.
+                                        Using AWS Virtual Private Cloud ensures that nobody will be stealing your data and you can trust its safe.
                                     </p>
                                 </div>
                             </div>

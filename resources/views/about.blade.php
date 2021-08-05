@@ -6,6 +6,7 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.2/dist/alpine.min.js" defer></script>
     <script src="https://kit.fontawesome.com/589ed6e880.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="https://teamatlasofficial.s3.eu-west-2.amazonaws.com/favicon.ico">
     <title>TeamATLAS | About Us</title>
 </head>
 

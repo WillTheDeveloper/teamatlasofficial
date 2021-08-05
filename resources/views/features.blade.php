@@ -6,6 +6,7 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.2/dist/alpine.min.js" defer></script>
     <script src="https://kit.fontawesome.com/589ed6e880.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="https://teamatlasofficial.s3.eu-west-2.amazonaws.com/favicon.ico">
     <title>TeamATLAS | Features</title>
 </head>
 
@@ -223,7 +224,7 @@
                             Security is key
                         </h2>
                         <p class="mt-4 text-lg text-gray-500">
-                            When running a website, you want to make sure that all the data you are storing is safe; This is where Vapor firewalls and AWS VPS works its magic and blocks crawlers and blocks any IP's that try to DDOS your site.
+                            When running a website, you want to make sure that all the data you are storing is safe; This is where Vapor firewalls and AWS VPC works its magic and blocks crawlers and blocks any IP's that try to DDOS your site.
                         </p>
                     </div>
                 </div>
